@@ -2,7 +2,7 @@ CREATE OR REPLACE TRIGGER trig_cust_profile_change
   BEFORE
     INSERT OR
     UPDATE OR
-    DELETEaaa
+    DELETE
   ON CUST_PROFILE
   FOR EACH ROW
 BEGIN
